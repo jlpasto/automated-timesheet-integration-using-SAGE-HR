@@ -11,6 +11,8 @@ from collections import defaultdict
 from dotenv import load_dotenv
 import os
 
+# Load environment variables from .env file
+load_dotenv()
 
 API_EMPLOYEE_TIMESHEET = f"https://wbthecreativejewellerylimited.sage.hr/api/timesheets/clock-in"
 API_CREATE_WORKDAY = "https://wbthecreativejewellerylimited.sage.hr/api/timesheets/workdays"
