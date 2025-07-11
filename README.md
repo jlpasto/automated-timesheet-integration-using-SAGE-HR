@@ -37,7 +37,7 @@ By fetching and posting attendance records programmatically, it ensures timeshee
 ```
 your-project/
 │
-├── script.py               # Main integration script
+├── main.py               # Main integration script
 ├── .env                    # Contains sensitive API keys (not committed)
 ├── last_date.txt           # Tracks last processed date
 ├── requirements.txt        # List of dependencies
